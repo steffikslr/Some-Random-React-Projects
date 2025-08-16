@@ -1,0 +1,18 @@
+:root{
+  --nav-bg-color: rgb(115, 104, 126);
+  --button-color: rgb(174, 147, 199)
+}
+
+*{
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-list{
+  height: calc(100vh - 50px);
+  background-color: var(--nav-bg-color);
+}
